@@ -1,0 +1,5 @@
+# Ignore node_modules folders
+Backend/node_modules/
+Backend/.env/
+Frontend/vite-project/node_modules/
+Frontend/vite-project/dist/
