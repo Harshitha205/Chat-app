@@ -1,0 +1,19 @@
+{
+  
+  "engines":{
+    "node": "v22.14.0"
+  },
+  "name": "chat-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "build": "npm install --prefix Backend && npm install --prefix Frontend/vite-project && npm run build --prefix Frontend/vite-project",
+  "start": "npm run start --prefix Backend",
+  "dev": "npm run dev --prefix Frontend/vite-project"
+},
+
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
